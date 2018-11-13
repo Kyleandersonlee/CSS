@@ -31,6 +31,9 @@ width:100%;
 .topNavBar-inner{
 padding:0 16px;
 }
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
 nav{
 float:right;
 padding-top:3px;
@@ -96,7 +99,7 @@ max-width:940px;
 margin-left:auto;
 margin-right:auto;
 background-color:#FFF;
-
+box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
 }
 .userCard .welcome{
     background-color: #E6686A;
@@ -169,3 +172,77 @@ margin:16px;
 .userCard>footer.media>a:hover{
 background-color: #CF5D5F;
 }
+
+body > main .download{
+font-size:14px;
+line-height:16px;
+padding:21px 55px;
+display:inline-block;
+border: 1px solid #CDCFD1;
+background:#EFEFEF;
+border-radius: 2px;
+color:#3d4451;
+font-weight:bold;
+margin:0 auto;
+transition: box-shadow 0.2s;
+}
+body > main .download:onhover{
+    box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.2);
+}
+.selfIntroduction{
+max-width:940px;
+margin-left:auto;
+margin-right:auto;
+text-align: center;
+}
+session .skills{
+max-width:940px;
+margin-left:auto;
+margin-right:auto;
+margin-top:60px;
+}
+ol,ul{
+    list-style: none;
+}
+session .skills>h2{
+text-align:center;
+color:#3d4451;
+font-size:34px;
+line-height:1.2;
+font-weight: 600;
+}
+session .skills>ol{
+   background:white; 
+   box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+ padding:42px 50px 10px;
+ margin-top:30px;
+}
+
+session .skills>h3{
+font-size:14px;
+line-height: 1.1;
+padding-right:40px;
+
+}
+session.skills>ol>li{
+float:left;
+width:48%; 
+box-sizing: border-box;
+}
+session.skills>ol>li:nth-child(even){
+float:right;
+}
+session.skills .progressBar{
+height:5px;
+background:#fae1e1;
+border-radius: 2px;
+margin:4px 0 40px;
+}
+session.skills .progressBar> .progress{
+height:100%;
+background:#E6686A;
+width:70%;
+border-radius: 2px;
+}
+
+
