@@ -224,21 +224,21 @@ line-height: 1.1;
 padding-right:40px;
 
 }
-session.skills>ol>li{
+session .skills>ol>li{
 float:left;
 width:48%; 
 box-sizing: border-box;
 }
-session.skills>ol>li:nth-child(even){
+session .skills>ol>li:nth-child(even){
 float:right;
 }
-session.skills .progressBar{
+session .skills .progressBar{
 height:5px;
 background:#fae1e1;
 border-radius: 2px;
 margin:4px 0 40px;
 }
-session.skills .progressBar> .progress{
+session .skills .progressBar> .progress{
 height:100%;
 background:#E6686A;
 width:70%;
