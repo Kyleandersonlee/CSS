@@ -204,41 +204,41 @@ margin-top:60px;
 ol,ul{
     list-style: none;
 }
-session.skills>h2{
+section.skills>h2{
 text-align:center;
 color:#3d4451;
 font-size:34px;
 line-height:1.2;
 font-weight: 600;
 }
-session.skills>ol{
+section.skills>ol{
    background:white; 
    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
  padding:42px 50px 10px;
  margin-top:30px;
 }
 
-session.skills>h3{
+section.skills>h3{
 font-size:14px;
 line-height: 1.1;
 padding-right:40px;
 
 }
-session.skills>ol>li{
+section.skills>ol>li{
 float:left;
 width:48%; 
 box-sizing: border-box;
 }
-session.skills>ol>li:nth-child(even){
+section.skills>ol>li:nth-child(even){
 float:right;
 }
-session.skills.progressBar{
+section.skills.progressBar{
 height:5px;
 background:#fae1e1;
 border-radius: 2px;
 margin:4px 0 40px;
 }
-session.skills.progressBar>.progress{
+section.skills.progressBar>.progress{
 height:100%;
 background:#E6686A;
 width:70%;
