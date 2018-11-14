@@ -180,13 +180,13 @@ padding:21px 55px;
 display:inline-block;
 border: 1px solid #CDCFD1;
 background:#EFEFEF;
-border-radius: 2px;
+border-radius:2px;
 color:#3d4451;
 font-weight:bold;
-margin:0 auto;
+margin:32px 0;
 transition: box-shadow 0.2s;
 }
-body > main .download:onhover{
+body > main .download:hover{
     box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.2);
 }
 .selfIntroduction{
