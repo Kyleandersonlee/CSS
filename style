@@ -219,7 +219,7 @@ section.skills>ol{
 }
 
 section.skills>h3{
-font-size:14px;
+font-size:13px;
 line-height: 1.1;
 padding-right:40px;
 
