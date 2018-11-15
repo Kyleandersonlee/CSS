@@ -226,7 +226,7 @@ padding-right:40px;
 }
 section.skills>ol>li{
 float:left;
-width:48%; 
+width:45%; 
 box-sizing: border-box;
 }
 section.skills>ol>li:nth-child(even){
