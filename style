@@ -218,7 +218,7 @@ section.skills>ol{
  margin-top:30px;
 }
 
-section.skills>h3{
+section.skills h3{
 font-size:14px;
 line-height: 1.1;
 padding-right:40px;
