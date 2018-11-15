@@ -218,13 +218,13 @@ section .skills>ol{
  margin-top:30px;
 }
 
-section .skills>h3{
+section.skills>h3{
 font-size:14px;
 line-height: 1.1;
 padding-right:40px;
 
 }
-section .skills>ol>li{
+section.skills>ol>li{
 float:left;
 width:48%; 
 box-sizing: border-box;
@@ -232,13 +232,13 @@ box-sizing: border-box;
 section.skills>ol>li:nth-child(even){
 float:right;
 }
-section .skills .progressBar{
+section.skills.progressBar{
 height:5px;
 background:#fae1e1;
 border-radius: 2px;
 margin:4px 0 40px;
 }
-section .skills .progressBar > .progress{
+section.skills.progressBar>.progress{
 height:100%;
 background:#E6686A;
 width:70%;
