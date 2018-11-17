@@ -55,6 +55,16 @@
     <h1>黎至成</h1>
     <p>前端开发工程师</p>
     <hr>
+    <dl>
+        <dt>年龄</dt>
+        <dd>18</dd>
+        <dt>所在城市</dt>
+        <dd>北京</dd>
+        <dt>邮箱</dt>
+        <dd>fangyinghang@foxmail.com</dd>
+        <dt>手机</dt>
+        <dd>13812345678</dd>
+      </dl>
   </div>
 </div>
 <footer class="media">
@@ -106,6 +116,48 @@
      <div class="progress"></div></div></li>
 </ol>
 
+</section>
+<section class="protfolio">
+<h2>作品集</h2>
+<nav>
+<ol class="clearfix"> 
+    <li id="protfolio1">
+    所有
+    </li>
+    <li id="protfolio2">
+        框架    
+    </li>
+    <li id="protfolio3">
+        原生JS&amp;CSS
+    </li>
+</ol>
+<div id="portfolioBar" class="bar state-1">
+    <div class="bar-inner"></div>
+</div>
+</nav>
+<script>
+portfolio1.onclick=function(){
+    portfolioBar.className='bar state-1'
+}
+portfolio2.onclick=function(){
+    portfolioBar.className='bar state-2'
+}
+portfolio3.onclick=function(){
+    portfolioBar.className='bar state-3'
+}
+
+</script>
+ <div class="works" style="height: 597px;">
+    <div class="big" style="top: 0; left: 0;">
+      <img src="./img/1.jpg" alt="作品1">
+    </div>
+    <div class="small" style="top: 0; left: 645px;">
+      <img src="./img/2.jpg" alt="作品2">
+    </div>
+    <div class="small" style="top: 312px; left: 645px;">
+      <img src="./img/3.jpg" alt="作品3">
+    </div>
+  </div>
 </section>
 </body>
 </html>
